@@ -1,0 +1,36 @@
+# Ignore object files, compiled binaries, and libraries
+*.o
+*.obj
+*.out
+*.exe      # useful if building on Windows
+*.a        # static libraries
+*.so       # shared libraries (Unix)
+*.dll      # shared libraries (Windows)
+*.elf      # ELF executables
+*.gch      # precompiled headers
+*.pch      # precompiled headers
+
+# Ignore build directories (if you use one)
+build/
+bin/
+lib/
+
+# Ignore dependency files / compiled module files (if any)
+*.d
+*.mod
+
+# Ignore editor / IDE / OS-generated files
+*~
+*.swp
+*.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# Ignore generated build system files
+CMakeFiles/
+CMakeCache.txt
+Makefile
+*.makefile
+config.h
